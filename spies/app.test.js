@@ -11,7 +11,6 @@ describe('App', () => {
     app.__set__('db', db)
 
     it('should call saveUser with user object',()=>{
-        var email = 'mohan@fireeye.com'
         var password = '123abc'
 
         app.handleSignup(email. password)
